@@ -1,4 +1,5 @@
-# lantern-docker
+# lantern docker
+
 ## 生成基础镜像
 https://github.com/85949001/lantern-ubuntu-docker
 
@@ -12,3 +13,6 @@ docker run -itd --restart=always --name lantern -p 8010:8010 -p 8020:8020  -p 80
 
 ## lantern ui
 访问lantern ui：http://hostip:8080/lantern 
+
+## 使用
+在代理中配置 http://hostip:8010
